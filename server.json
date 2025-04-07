@@ -1,0 +1,13 @@
+{
+    "web":{
+        "host":"localhost",
+        "servletPassPredicate":"regex( '^/(.+?\\.cf[cm])(/.*)?$' ) or path-prefix-nocase( /rest/ )",
+        "http":{
+            "port":8888
+        }
+    },
+    "app":{
+        "cfengine":"lucee",
+        "restMappings":"/rest/*,/api/*"
+    }
+}

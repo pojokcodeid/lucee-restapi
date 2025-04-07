@@ -1,0 +1,5 @@
+{
+  "name": "lucee-rest-api",
+  "description": "Sample REST API using Lucee and CommandBox",
+  "type": "app"
+}
